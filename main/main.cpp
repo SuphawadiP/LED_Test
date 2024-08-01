@@ -13,7 +13,7 @@ void app_main(void)
     {        
         led1.ON();
         led2.OFF();
-        vTaskDelay(500/portTICK_PERIOD_MS);
+        vTaskDelay(5000/portTICK_PERIOD_MS);
         led1.OFF();
         led2.ON();
         vTaskDelay(500/portTICK_PERIOD_MS);
